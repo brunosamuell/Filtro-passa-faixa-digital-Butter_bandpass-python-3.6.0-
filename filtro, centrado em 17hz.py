@@ -36,7 +36,7 @@ def butter_bandpass_filter(data, lowcut, highcut, fs, order=3):
     y = lfilter(b, a, data)
     
     return y
-#freqeuncia amostra
+#freqeuncia da amostra
 fps = 100
 
 #Gerando sinal de 100Hz
